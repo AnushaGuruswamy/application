@@ -1,12 +1,36 @@
-header{
-			position:fixed;
-			top:5%;
-			border-style:groove;
-			width:98%;
-			background-color:#0000002e;
-			
-		}
-		
+label{
+	text-align: left;
+	padding-bottom: 10px;
+}
+input{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #000;
+	width: 80%;
+	padding-bottom: 10px;
+}
+.reg-form{
+	width:30% ;
+	position: relative;
+	left: 30%;
+	padding: 30px;
+}
+.reg-form h2{
+	text-align: center;
+}
+.btn-signup{
+	background: transparent;
+	outline-color: black;
+	padding: 10px;
+	width: 50%;
+	margin-left: 80px;
+	color: black;
+}
+.btn-signup:hover{
+	background: black;
+	outline-color: white;
+	color: white;
+}		
 .gat{
 		position:absolute;
 		right:5%;
